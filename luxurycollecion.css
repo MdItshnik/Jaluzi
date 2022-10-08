@@ -1,0 +1,185 @@
+.luxurycollection-maha {
+    position: fixed;
+    height: 13%;
+}
+.h3-md{
+    font-family: 'Dancing Script', cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: sticky;
+    width: 70% !important;
+    height: 85px;
+    margin-top: 70px;
+    margin-right: 100px;
+    
+}
+.nav-md {
+    width: 90%;
+    
+}
+.img-md {
+    margin-left: auto;
+    margin-top: 70px;
+}
+
+body {
+    height: 100%;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/9s3kKCqwG7PoP3h4ACvvVi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed  ', sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.h1-md {
+        width: 90% !important;
+        border-bottom: solid 2px green;
+        text-align: right !important;
+        margin-left: 20px;
+        margin-top: px;
+}
+.h1-mdd {
+    text-align: right !important;
+    width: 345px;
+    height: 170px;
+    margin-top: 50px;
+    margin-left: 50px;
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+.span-1 {
+    color: rgb(28, 17, 242);
+
+    animation: span-1 2s alternate ;
+}
+span {
+    margin-left: 20px;
+color: rgb(28, 17, 242);
+}
+.span-2 {
+
+    animation: span-2 2s alternate ;
+    transition: 2s;
+}
+.span-3 {
+
+    animation: span-3 2s alternate ;
+}
+.span-4{
+
+    animation: span-4 2s alternate ;
+}
+.span-5 {
+
+    animation: span-5 2s alternate ;
+    tra
+}
+
+
+@keyframes slidein {
+
+    from {
+        margin-left: 0%;
+        width: 40%;
+        opacity: 30%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 29%;
+        opacity: 100%;
+      }
+    
+}
+@keyframes span-1 {
+    from {
+        position: absolute;
+        left: 70px;
+        top: 30px;
+        transform: rotateY(-10deg);
+     }
+    
+     to {
+        position: absolute;
+        top: 418px;
+        left: 0px;
+     bottom: 300px;
+        transform: rotateY(360deg);
+    
+     }
+}
+@keyframes span-2 {
+    from {
+       position: absolute;
+       right: 70px;
+       top: 1000px;
+       transform: rotateY(-10deg);
+    }
+   
+    to {
+       position: absolute;
+       top: 418px;
+       right: 1060px;
+    bottom: 300px;
+       transform: rotateY(360deg);
+   
+    }
+   }
+   @keyframes span-3 {
+    from {
+        position: absolute;
+        right: 300px;
+        top: 00px;
+        transform: rotateY(-10deg);
+     }
+    
+     to {
+        position: absolute;
+        top: 418px;
+        left: 312px;
+     bottom: 300px;
+        transform: rotateY(360deg);
+    
+     }
+   }
+   @keyframes span-4 {
+    from {
+       position: absolute;
+       right: 200px;
+       top: 200px;
+       transform: rotateY(0deg);
+    }
+   
+    to {
+       position: absolute;
+       top: 0;
+       right: 0;
+       bottom: 300px;
+       transform: rotateY(360deg);
+   
+    }
+   }
+   @keyframes span-5 {
+    from {
+       position: absolute;
+       right: 200px;
+       top: 200px;
+       transform: rotateY(0deg);
+    }
+   
+    to {
+       position: absolute;
+       top: 418;
+       right: 0;
+       bottom: 300px;
+       transform: rotateY(360deg);
+   
+    }
+   }
